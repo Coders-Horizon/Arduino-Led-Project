@@ -1,0 +1,13 @@
+#define LED 12  // The pin the LED is connected to
+#define LED 11  // The pin the LED is connected to
+#define LED 7  // The pin the LED is connected to
+void setup() {
+  pinMode(LED, OUTPUT); // Declare the LED as an output
+}
+
+void loop() {
+  digitalWrite(LED, HIGH); // Turn the LED on
+}
+#use this on Arduino Software
+#parts ------ breadboard, Arduino board, Arduino cable, jumper wires, 10 k potentiometer, 2  220 ohm resistors, 3-5 leds
+#check the video for more info ------- https://www.youtube.com/watch?v=VLBNdnG4Jz4
